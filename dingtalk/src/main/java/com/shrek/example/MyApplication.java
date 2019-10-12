@@ -10,12 +10,11 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * @author: hxy
+ * @author: wus
  * @description: SpringBoot启动类
  * @date: 2017/10/24 11:55
  */
 @SpringBootApplication
-@EnableScheduling
 @MapperScan("com.shrek.example.dao")
 public class MyApplication extends SpringBootServletInitializer {
 
