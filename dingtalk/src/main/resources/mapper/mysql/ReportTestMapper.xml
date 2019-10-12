@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shrek.example.dao.mysql.ReportTestDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <select id="count" resultType="Integer">
+        SELECT count(0)
+        FROM report_test obj
+        WHERE obj.delete_status = '1'
+    </select>
+
+
+    <select id="listByPage" resultType="com.alibaba.fastjson.JSONObject">
+        SELECT
+                    obj.report_date reportDate,                    obj.report_user reportUser,                    obj.report_orderuser reportOrderuser,                    obj.report_rate reportRate                FROM report_test obj
+        WHERE obj.delete_status = '1'
+        ORDER BY obj.id DESC
+        LIMIT #{offSet}, #{pageRow}
+    </select>
+
+    <select id="list" resultType="com.alibaba.fastjson.JSONObject">
+        SELECT
+        obj.report_date '日期',                    obj.report_user '访问用户',
+          obj.report_orderuser '下单用户',                    obj.report_rate '下单率'                FROM report_test obj
+        WHERE obj.delete_status = '1'
+        ORDER BY obj.id DESC
+    </select>
+
+    <insert id="insert" parameterType="com.alibaba.fastjson.JSONObject">
+        INSERT INTO report_test (
+        report_date,         report_user,         report_orderuser,         report_rate                 )
+        VALUES
+        (
+                #{reportDate},                 #{reportUser},                 #{reportOrderuser},                 #{reportRate}                 );
+    </insert>
+
+    <update id="update" parameterType="com.alibaba.fastjson.JSONObject">
+        UPDATE report_test
+        SET
+          report_date=#{reportDate},           report_user=#{reportUser},           report_orderuser=#{reportOrderuser},           report_rate=#{reportRate}                 WHERE
+        id = #{id};
+    </update>
+
+
+    <update id="delete" parameterType="java.lang.Long">
+        update
+        report_test set delete_status=2
+        where
+        id = #{id}
+    </update>
+</mapper>

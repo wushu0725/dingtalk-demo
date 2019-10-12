@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(255, 255, 255, 1);
+  font-size: .24rem;
+  line-height: 1;
+  color: #333;
+}
+
+html,
+body,
+p,
+h2,
+h3,
+h4,
+ul,
+li,
+input {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+image {
+  vertical-align: middle;
+}
+
+input {
+  -webkit-tap-highlight-color: transparent;
+  border: 0;
+  outline: none;
+  -webkit-appearance: none;
+}
+input:disabled{
+  background: transparent;
+}
+input::-webkit-input-placeholder{
+  color: #ccc;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  font-size: 0
+}
+
+#toast{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  padding: .2rem .4rem;
+  max-width: 3rem;
+  background: rgba(0, 0, 0, .6);
+  z-index: 999;
+  font-size: .34rem;
+  color: #fff;
+  border-radius: .08rem;
+  box-sizing: border-box;
+  transform: translate3d(-50%,-50%,0);
+  -webkit-border-radius: .08rem;
+  -webkit-box-sizing: border-box;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  z-index: 999;
+}
+.container{
+  min-height: 100%;
+  box-sizing: border-box;
+}.container{
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+#loading{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.loading-inner{
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%,-50%,0);
+  background: rgba(0, 0, 0, .6);
+  border-radius: .1rem;
+}
+.loading-circle{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border-width: .04rem;
+  border-style: solid;
+  border-top-color: rgba(255, 255, 255, 1);
+  border-right-color: rgba(255, 255, 255, 1);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  border-left-color: rgba(255, 255, 255, 0.1);
+  animation: loading 1s ease-in infinite;
+}
+@keyframes loading{
+  from {
+    transform: rotate(0deg)
+  }
+  to{
+    transform: rotate(360deg)
+  }
+}

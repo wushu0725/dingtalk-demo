@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shrek.example.dao.paiban.HydeeDao">
+
+    <select id="report1" resultType="com.alibaba.fastjson.JSONObject">
+        declare @busno varchar(20)
+        select  @busno='${busno}'
+        select  @busno='0001'
+        if OBJECT_ID('tempdb..#period_month_xioami_t') is not null
+        drop table #period_month_xioami_t
+        if OBJECT_ID('tempdb..#sale_month_xioami_t') is not null
+        drop table #sale_month_xioami_t
+        create table #period_month_xioami_t ( month  varchar(10))
+        create table #sale_month_xioami_t ( month  varchar(10),saleamt numeric(16,2))
+        insert into #period_month_xioami_t
+        select left(convert(varchar(10),DATEADD(dd,-7,getdate()),120),10)
+        union all
+        select left(convert(varchar(10),DATEADD(dd,-6,getdate()),120),10)
+        union all
+        select left(convert(varchar(10),DATEADD(dd,-5,getdate()),120),10)
+        union all
+        select left(convert(varchar(10),DATEADD(dd,-4,getdate()),120),10)
+        union all
+        select left(convert(varchar(10),DATEADD(dd,-3,getdate()),120),10)
+        union all
+        select left(convert(varchar(10),DATEADD(dd,-2,getdate()),120),10)
+        union all
+        select left(convert(varchar(10),DATEADD(dd,-1,getdate()),120),10)
+        insert into   #sale_month_xioami_t
+        select
+        convert(varchar(10),accdate,120) as day,SUM(realamt) as saleamt
+
+        from r_sale_pos where busno=@busno and
+        accdate &gt;= convert(varchar(10),getdate()-7,120)
+        and accdate &lt; convert(varchar(10),getdate(),120)
+        group by convert(varchar(10),accdate,120)
+        select aa.MONTH '月份',isnull(bb.saleamt,0) '销售额' from #period_month_xioami_t aa
+        left join #sale_month_xioami_t bb  on  aa.month=bb.month
+
+    </select>
+
+    <select id="list" resultType="com.alibaba.fastjson.JSONObject">
+        SELECT
+        obj.report_date '日期',                    obj.report_user '访问用户',
+          obj.report_orderuser '下单用户',                    obj.report_rate '下单率'                FROM report_test obj
+        WHERE obj.delete_status = '1'
+        ORDER BY obj.id DESC
+    </select>
+
+    <insert id="insert" parameterType="com.alibaba.fastjson.JSONObject">
+        INSERT INTO report_test (
+        report_date,         report_user,         report_orderuser,         report_rate                 )
+        VALUES
+        (
+                #{reportDate},                 #{reportUser},                 #{reportOrderuser},                 #{reportRate}                 );
+    </insert>
+
+    <update id="update" parameterType="com.alibaba.fastjson.JSONObject">
+        UPDATE report_test
+        SET
+          report_date=#{reportDate},           report_user=#{reportUser},           report_orderuser=#{reportOrderuser},           report_rate=#{reportRate}                 WHERE
+        id = #{id};
+    </update>
+
+
+    <update id="delete" parameterType="java.lang.Long">
+        update
+        report_test set delete_status=2
+        where
+        id = #{id}
+    </update>
+</mapper>

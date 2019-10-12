@@ -1,0 +1,1043 @@
+2019-10-12 10:05:29.639 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:05:29.669 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:05:29.670 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:05:29.671 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:05:29.673 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:05:29.673 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:05:29.872 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 19052 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:05:29.873 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:05:29.874 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:05:31.172 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.173 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.173 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.174 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.174 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.175 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.176 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.177 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.177 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.178 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.178 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.179 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:05:31.180 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:05:33.494 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:05:35.174 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:05:35.898 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:05:35.899 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:05:35.918 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:05:35.921 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:05:35.923 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:05:35.924 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:05:35.927 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:05:35.928 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:05:35.930 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:05:35.931 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:05:35.932 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:05:35.946 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:05:35.946 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:05:35.947 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:05:35.948 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:05:35.949 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:05:37.726 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.761 seconds (JVM running for 11.525)
+2019-10-12 10:05:38.451 ERROR --- [TaobaoLogger.java:50][main] - 2019-10-12 10:05:38.443^_^_dingtalk_^_^dingtalk.oapi.user.getuserinfo^_^192.168.197.103^_^Windows 10^_^421^_^https://oapi.dingtalk.com/user/getuserinfo^_^access_token=b5544ffb45133c16ad48610192b63142&code=4edadb33aad83b9c884eb44e4daedec6^_^{"errcode":60020,"errmsg":"请参考FAQ：https://open-doc.dingtalk.com/microapp/faquestions/cvbtph。错误原因：访问ip不在白名单之中,request ip=120.236.192.179 appKey\u0028dingqncis2jqsmg0oh09\u0029"}
+2019-10-12 10:08:50.003 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:08:50.024 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:08:50.025 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:08:50.025 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:08:50.026 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:08:50.026 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:08:50.169 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 11188 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:08:50.181 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:08:50.182 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:08:51.645 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.646 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.646 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.647 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.648 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.648 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.649 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.650 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.650 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.651 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.652 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.653 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:08:51.654 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:08:53.969 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:08:55.464 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:08:56.103 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:08:56.104 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:08:56.124 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:08:56.126 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:08:56.128 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:08:56.130 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:08:56.132 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:08:56.133 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:08:56.134 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:08:56.135 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:08:56.137 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:08:56.150 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:08:56.151 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:08:56.151 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:08:56.152 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:08:56.153 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:08:57.948 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.558 seconds (JVM running for 11.245)
+2019-10-12 10:08:58.568 ERROR --- [TaobaoLogger.java:50][main] - 2019-10-12 10:08:58.561^_^_dingtalk_^_^dingtalk.oapi.user.getuserinfo^_^192.168.197.103^_^Windows 10^_^382^_^https://oapi.dingtalk.com/user/getuserinfo^_^access_token=b5544ffb45133c16ad48610192b63142&code=4edadb33aad83b9c884eb44e4daedec6^_^{"errcode":40078,"errmsg":"不存在的临时授权码"}
+2019-10-12 10:10:01.373 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:10:01.402 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:10:01.404 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:10:01.405 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:10:01.406 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:10:01.407 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:10:01.614 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 18240 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:10:01.615 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:10:01.615 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:10:03.156 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.156 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.157 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.157 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.158 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.158 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.159 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.160 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.160 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.161 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.162 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.162 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:10:03.163 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:10:05.394 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:10:06.825 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:10:07.476 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:10:07.477 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:10:07.497 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:10:07.500 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:10:07.502 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:10:07.504 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:10:07.508 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:10:07.509 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:10:07.510 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:10:07.511 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:10:07.512 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:10:07.522 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:10:07.523 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:10:07.524 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:10:07.524 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:10:07.525 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:10:09.227 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.514 seconds (JVM running for 11.213)
+2019-10-12 10:19:29.811 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:19:29.842 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:19:29.843 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:19:29.844 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:19:29.845 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:19:29.845 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:19:30.065 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 13928 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:19:30.066 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:19:30.068 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:19:31.440 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.441 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.442 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.442 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.443 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.443 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.444 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.444 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.444 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.445 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.445 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.446 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:19:31.446 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:19:33.762 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:19:35.260 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:19:36.022 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:19:36.023 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:19:36.049 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:19:36.052 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:19:36.054 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:19:36.055 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:19:36.058 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:19:36.060 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:19:36.063 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:19:36.065 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:19:36.067 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:19:36.084 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:19:36.084 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:19:36.085 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:19:36.086 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:19:36.088 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:19:37.750 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.52 seconds (JVM running for 11.22)
+2019-10-12 10:19:38.452 ERROR --- [TaobaoLogger.java:50][main] - 2019-10-12 10:19:38.445^_^_dingtalk_^_^dingtalk.oapi.user.getuserinfo^_^192.168.197.103^_^Windows 10^_^459^_^https://oapi.dingtalk.com/gettoken^_^access_token=b5544ffb45133c16ad48610192b63142&code=42a185af67723438bf3c27e3075ecead^_^{"errcode":40035,"errmsg":"缺少参数 corpid or appkey"}
+2019-10-12 10:20:33.939 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:20:33.962 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:20:33.963 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:20:33.964 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:20:33.965 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:20:33.965 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:20:34.104 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 15120 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:20:34.105 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:20:34.106 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:20:35.392 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.393 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.394 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.394 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.396 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.396 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.397 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.397 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.398 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.399 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.399 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.400 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:20:35.400 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:20:37.832 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:20:39.252 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:20:39.993 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:20:39.995 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:20:40.018 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:20:40.021 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:20:40.024 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:20:40.026 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:20:40.029 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:20:40.030 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:20:40.031 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:20:40.033 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:20:40.034 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:20:40.048 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:20:40.049 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:20:40.050 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:20:40.051 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:20:40.052 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:20:42.092 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.773 seconds (JVM running for 11.384)
+2019-10-12 10:20:42.801 ERROR --- [TaobaoLogger.java:50][main] - 2019-10-12 10:20:42.792^_^_dingtalk_^_^dingtalk.oapi.user.getuserinfo^_^192.168.197.103^_^Windows 10^_^420^_^https://oapi.dingtalk.com/gettoken^_^access_token=b5544ffb45133c16ad48610192b63142&code=631de848bdcf39cd8a9228f9bc750a9b^_^{"errcode":40035,"errmsg":"缺少参数 corpid or appkey"}
+2019-10-12 10:23:40.487 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:23:40.506 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:23:40.508 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:23:40.508 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:23:40.509 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:23:40.509 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:23:40.664 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 4540 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:23:40.665 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:23:40.666 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:23:42.078 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.079 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.080 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.082 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.083 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.084 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.084 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.085 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.086 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.087 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.087 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.088 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:23:42.089 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:23:44.383 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:23:45.972 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:23:46.625 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:23:46.627 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:23:46.647 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:23:46.650 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:23:46.651 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:23:46.653 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:23:46.656 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:23:46.656 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:23:46.658 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:23:46.659 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:23:46.660 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:23:46.672 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:23:46.673 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:23:46.673 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:23:46.674 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:23:46.674 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:23:48.702 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.79 seconds (JVM running for 11.391)
+2019-10-12 10:24:55.012 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:24:55.034 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:24:55.036 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:24:55.036 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:24:55.036 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:24:55.037 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:24:55.188 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 5424 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:24:55.189 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:24:55.189 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:24:56.444 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.444 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.445 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.446 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.447 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.447 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.448 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.448 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.449 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.449 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.450 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.450 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:24:56.450 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:24:58.704 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:25:00.242 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:25:00.860 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:25:00.861 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:25:00.881 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:25:00.884 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:25:00.886 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:25:00.888 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:25:00.891 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:25:00.891 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:25:00.892 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:25:00.893 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:25:00.894 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:25:00.905 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:25:00.906 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:25:00.906 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:25:00.907 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:25:00.907 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:25:02.581 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.186 seconds (JVM running for 10.989)
+2019-10-12 10:30:28.943 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:30:28.967 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:30:28.968 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:30:28.969 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:30:28.970 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:30:28.970 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:30:29.115 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 19028 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:30:29.116 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:30:29.117 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:30:30.509 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.510 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.511 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.511 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.512 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.512 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.513 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.513 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.514 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.514 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.515 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.516 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:30:30.516 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:30:32.733 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:30:34.254 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:30:34.924 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:30:34.925 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:30:34.942 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:30:34.945 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:30:34.947 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:30:34.949 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:30:34.951 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:30:34.952 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:30:34.953 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:30:34.953 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:30:34.954 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:30:34.966 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:30:34.967 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:30:34.967 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:30:34.968 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:30:34.969 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:30:36.550 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.258 seconds (JVM running for 11.083)
+2019-10-12 10:34:08.199 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 10:34:08.225 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:34:08.227 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:34:08.227 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:34:08.228 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:34:08.228 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:34:08.383 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 8604 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 10:34:08.384 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 10:34:08.385 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 10:34:09.738 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.738 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.739 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.739 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.739 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.740 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.741 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.742 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.742 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.743 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.743 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.743 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 10:34:09.744 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 10:34:11.927 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:34:13.496 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 10:34:14.172 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:34:14.173 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 10:34:14.193 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 10:34:14.195 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 10:34:14.197 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 10:34:14.199 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 10:34:14.202 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 10:34:14.203 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 10:34:14.204 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 10:34:14.205 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 10:34:14.206 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 10:34:14.220 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 10:34:14.220 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 10:34:14.221 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 10:34:14.222 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 10:34:14.223 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 10:34:15.906 INFO  --- [StartupInfoLogger.java:59][main] - Started DingtalkServiceTest in 8.338 seconds (JVM running for 11.211)
+2019-10-12 10:34:16.530 ERROR --- [TaobaoLogger.java:50][main] - 2019-10-12 10:34:16.520^_^_dingtalk_^_^dingtalk.oapi.user.getuserinfo^_^192.168.197.103^_^Windows 10^_^372^_^https://oapi.dingtalk.com/user/getuserinfo^_^access_token=b5544ffb45133c16ad48610192b63142&code=f7550565ed4f35ad866edd2955f7979e^_^{"errcode":40078,"errmsg":"不存在的临时授权码"}
+2019-10-12 12:55:46.684 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 12:55:46.704 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 12:55:46.705 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 12:55:46.706 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 12:55:46.706 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 12:55:46.706 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 12:55:46.832 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 11740 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 12:55:46.833 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 12:55:46.834 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 12:55:48.352 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao.paiban]' package. Please check your configuration.
+2019-10-12 12:55:48.368 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.369 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.369 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.370 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.371 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.371 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.372 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.372 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.373 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.373 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.374 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.375 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:48.375 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 12:55:50.777 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 12:55:52.298 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 12:55:52.434 WARN  --- [AbstractApplicationContext.java:558][main] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paibansqlSessionFactory' defined in class path resource [com/shrek/example/datasource/MyBatisPaibanAConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+2019-10-12 12:55:52.458 ERROR --- [SpringApplication.java:842][main] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paibansqlSessionFactory' defined in class path resource [com/shrek/example/datasource/MyBatisPaibanAConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1254)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1103)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 41 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:495)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:296)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig.paibansqlSessionFactory(MyBatisPaibanAConfig.java:30)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a.CGLIB$paibansqlSessionFactory$1(<generated>)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a$$FastClassBySpringCGLIB$$dfed90d4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a.paibansqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+2019-10-12 12:55:52.465 ERROR --- [TestContextManager.java:250][main] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6ecab872] to prepare test instance [com.shrek.example.service.impl.DingtalkServiceTest@48eb9836]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paibansqlSessionFactory' defined in class path resource [com/shrek/example/datasource/MyBatisPaibanAConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1254)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1103)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 41 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:495)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:296)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig.paibansqlSessionFactory(MyBatisPaibanAConfig.java:30)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a.CGLIB$paibansqlSessionFactory$1(<generated>)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a$$FastClassBySpringCGLIB$$dfed90d4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a.paibansqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+2019-10-12 12:55:52.611 INFO  --- [StartupInfoLogger.java:50][main] - Starting DingtalkServiceTest on LAPTOP-KH9026AL with PID 11740 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 12:55:52.612 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 12:55:52.612 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 12:55:53.135 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao.paiban]' package. Please check your configuration.
+2019-10-12 12:55:53.146 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.146 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.147 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.148 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.148 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.149 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.149 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.150 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.151 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.151 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.152 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.152 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:55:53.153 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 12:55:53.464 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 12:55:54.024 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 12:55:54.107 WARN  --- [AbstractApplicationContext.java:558][main] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paibansqlSessionFactory' defined in class path resource [com/shrek/example/datasource/MyBatisPaibanAConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+2019-10-12 12:55:54.117 ERROR --- [SpringApplication.java:842][main] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paibansqlSessionFactory' defined in class path resource [com/shrek/example/datasource/MyBatisPaibanAConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1254)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1103)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 41 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:495)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:296)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig.paibansqlSessionFactory(MyBatisPaibanAConfig.java:30)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a.CGLIB$paibansqlSessionFactory$1(<generated>)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a$$FastClassBySpringCGLIB$$dfed90d4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a.paibansqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+2019-10-12 12:55:54.120 ERROR --- [TestContextManager.java:250][main] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6ecab872] to prepare test instance [com.shrek.example.service.impl.DingtalkServiceTest@7dbe2ebf]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paibansqlSessionFactory' defined in class path resource [com/shrek/example/datasource/MyBatisPaibanAConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1254)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1103)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 41 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:495)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:296)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig.paibansqlSessionFactory(MyBatisPaibanAConfig.java:30)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a.CGLIB$paibansqlSessionFactory$1(<generated>)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a$$FastClassBySpringCGLIB$$dfed90d4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$b90c7b5a.paibansqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+2019-10-12 12:56:05.177 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 12:56:05.197 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 12:56:05.198 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 12:56:05.199 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 12:56:05.199 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 12:56:05.200 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 12:56:05.220 INFO  --- [StartupInfoLogger.java:50][restartedMain] - Starting MyApplication on LAPTOP-KH9026AL with PID 4684 (C:\dingding\dingtalk-demo\dingtalk\target\classes started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 12:56:05.221 DEBUG --- [StartupInfoLogger.java:53][restartedMain] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 12:56:05.222 INFO  --- [SpringApplication.java:663][restartedMain] - The following profiles are active: dev
+2019-10-12 12:56:06.562 WARN  --- [ClassPathMapperScanner.java:166][restartedMain] - No MyBatis mapper was found in '[com.shrek.example.dao.paiban]' package. Please check your configuration.
+2019-10-12 12:56:06.571 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.572 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.572 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.572 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.573 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.573 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.573 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.574 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.574 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.574 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.575 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.575 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:56:06.575 WARN  --- [ClassPathMapperScanner.java:166][restartedMain] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 12:56:07.990 DEBUG --- [HikariConfig.java:495][restartedMain] - Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@d5babb8
+2019-10-12 12:56:10.201 DEBUG --- [HikariConfig.java:495][restartedMain] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@d5babb8
+2019-10-12 12:56:10.282 WARN  --- [AbstractApplicationContext.java:558][restartedMain] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paibansqlSessionFactory' defined in class path resource [com/shrek/example/datasource/MyBatisPaibanAConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+2019-10-12 12:56:10.325 ERROR --- [SpringApplication.java:842][restartedMain] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paibansqlSessionFactory' defined in class path resource [com/shrek/example/datasource/MyBatisPaibanAConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1254)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1103)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at com.shrek.example.MyApplication.main(MyApplication.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'paibansqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 21 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mapper/paiban/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:195)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:495)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:296)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig.paibansqlSessionFactory(MyBatisPaibanAConfig.java:30)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$d8008e54.CGLIB$paibansqlSessionFactory$0(<generated>)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$d8008e54$$FastClassBySpringCGLIB$$77fb8013.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.shrek.example.datasource.MyBatisPaibanAConfig$$EnhancerBySpringCGLIB$$d8008e54.paibansqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 22 common frames omitted
+2019-10-12 12:57:20.206 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 12:57:20.225 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 12:57:20.227 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 12:57:20.228 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 12:57:20.228 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 12:57:20.229 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 12:57:20.248 INFO  --- [StartupInfoLogger.java:50][restartedMain] - Starting MyApplication on LAPTOP-KH9026AL with PID 7132 (C:\dingding\dingtalk-demo\dingtalk\target\classes started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 12:57:20.249 DEBUG --- [StartupInfoLogger.java:53][restartedMain] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 12:57:20.249 INFO  --- [SpringApplication.java:663][restartedMain] - The following profiles are active: dev
+2019-10-12 12:57:21.721 WARN  --- [ClassPathMapperScanner.java:166][restartedMain] - No MyBatis mapper was found in '[com.shrek.example.dao.paiban]' package. Please check your configuration.
+2019-10-12 12:57:21.733 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.734 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.734 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.735 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.735 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.736 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.736 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.737 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.737 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.738 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.738 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.738 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 12:57:21.739 WARN  --- [ClassPathMapperScanner.java:166][restartedMain] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 12:57:23.264 DEBUG --- [HikariConfig.java:495][restartedMain] - Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@26a212cf
+2019-10-12 12:57:25.472 DEBUG --- [HikariConfig.java:495][restartedMain] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@26a212cf
+2019-10-12 12:57:25.595 DEBUG --- [TraversableResolvers.java:60][restartedMain] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 12:57:25.595 DEBUG --- [ResourceBundleMessageInterpolator.java:89][restartedMain] - Loaded expression factory via original TCCL
+2019-10-12 12:57:25.608 DEBUG --- [TraversableResolvers.java:60][restartedMain] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 12:57:25.609 DEBUG --- [ConfigurationImpl.java:148][restartedMain] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 12:57:25.610 DEBUG --- [ConfigurationImpl.java:180][restartedMain] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 12:57:25.611 DEBUG --- [ConfigurationImpl.java:194][restartedMain] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 12:57:25.614 DEBUG --- [ValidationXmlParser.java:133][restartedMain] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 12:57:25.614 DEBUG --- [ResourceLoaderHelper.java:53][restartedMain] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 12:57:25.615 DEBUG --- [ResourceLoaderHelper.java:60][restartedMain] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 12:57:25.615 DEBUG --- [ResourceLoaderHelper.java:66][restartedMain] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 12:57:25.616 DEBUG --- [ValidationXmlParser.java:140][restartedMain] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 12:57:25.624 DEBUG --- [ValidatorFactoryImpl.java:578][restartedMain] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 12:57:25.624 DEBUG --- [ValidatorFactoryImpl.java:579][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 12:57:25.624 DEBUG --- [ValidatorFactoryImpl.java:580][restartedMain] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 12:57:25.625 DEBUG --- [ValidatorFactoryImpl.java:581][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 12:57:25.625 DEBUG --- [ValidatorFactoryImpl.java:582][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 12:57:27.102 INFO  --- [StartupInfoLogger.java:59][restartedMain] - Started MyApplication in 7.546 seconds (JVM running for 9.775)
+2019-10-12 13:13:27.054 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 13:13:27.080 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 13:13:27.082 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 13:13:27.083 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 13:13:27.083 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 13:13:27.083 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 13:13:27.259 INFO  --- [StartupInfoLogger.java:50][main] - Starting HydeeServiceTest on LAPTOP-KH9026AL with PID 14792 (started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 13:13:27.260 DEBUG --- [StartupInfoLogger.java:53][main] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 13:13:27.261 INFO  --- [SpringApplication.java:663][main] - The following profiles are active: dev
+2019-10-12 13:13:28.802 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.803 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.804 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.804 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.804 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.805 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.805 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.805 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.806 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.806 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.807 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.807 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.808 WARN  --- [ClassPathMapperScanner.java:239][main] - Skipping MapperFactoryBean with name 'hydeeDao' and 'com.shrek.example.dao.paiban.HydeeDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:13:28.808 WARN  --- [ClassPathMapperScanner.java:166][main] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 13:13:31.238 DEBUG --- [HikariConfig.java:495][main] - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 13:13:32.750 DEBUG --- [HikariConfig.java:495][main] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-10-12 13:13:33.461 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 13:13:33.462 DEBUG --- [ResourceBundleMessageInterpolator.java:89][main] - Loaded expression factory via original TCCL
+2019-10-12 13:13:33.481 DEBUG --- [TraversableResolvers.java:60][main] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 13:13:33.483 DEBUG --- [ConfigurationImpl.java:148][main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 13:13:33.485 DEBUG --- [ConfigurationImpl.java:180][main] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 13:13:33.487 DEBUG --- [ConfigurationImpl.java:194][main] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 13:13:33.489 DEBUG --- [ValidationXmlParser.java:133][main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 13:13:33.490 DEBUG --- [ResourceLoaderHelper.java:53][main] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 13:13:33.492 DEBUG --- [ResourceLoaderHelper.java:60][main] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 13:13:33.492 DEBUG --- [ResourceLoaderHelper.java:66][main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 13:13:33.493 DEBUG --- [ValidationXmlParser.java:140][main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 13:13:33.507 DEBUG --- [ValidatorFactoryImpl.java:578][main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 13:13:33.508 DEBUG --- [ValidatorFactoryImpl.java:579][main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 13:13:33.509 DEBUG --- [ValidatorFactoryImpl.java:580][main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 13:13:33.510 DEBUG --- [ValidatorFactoryImpl.java:581][main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 13:13:33.511 DEBUG --- [ValidatorFactoryImpl.java:582][main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 13:13:35.258 INFO  --- [StartupInfoLogger.java:59][main] - Started HydeeServiceTest in 8.861 seconds (JVM running for 11.679)
+2019-10-12 13:13:35.659 DEBUG --- [HikariConfig.java:1119][main] - HikariPool-1 - configuration:
+2019-10-12 13:13:35.666 DEBUG --- [HikariConfig.java:1151][main] - allowPoolSuspension.............false
+2019-10-12 13:13:35.667 DEBUG --- [HikariConfig.java:1151][main] - autoCommit......................true
+2019-10-12 13:13:35.668 DEBUG --- [HikariConfig.java:1151][main] - catalog.........................none
+2019-10-12 13:13:35.668 DEBUG --- [HikariConfig.java:1151][main] - connectionInitSql...............none
+2019-10-12 13:13:35.669 DEBUG --- [HikariConfig.java:1151][main] - connectionTestQuery.............none
+2019-10-12 13:13:35.670 DEBUG --- [HikariConfig.java:1151][main] - connectionTimeout...............30000
+2019-10-12 13:13:35.671 DEBUG --- [HikariConfig.java:1151][main] - dataSource......................none
+2019-10-12 13:13:35.672 DEBUG --- [HikariConfig.java:1151][main] - dataSourceClassName.............none
+2019-10-12 13:13:35.673 DEBUG --- [HikariConfig.java:1151][main] - dataSourceJNDI..................none
+2019-10-12 13:13:35.674 DEBUG --- [HikariConfig.java:1151][main] - dataSourceProperties............{password=<masked>}
+2019-10-12 13:13:35.675 DEBUG --- [HikariConfig.java:1151][main] - driverClassName................."com.microsoft.sqlserver.jdbc.SQLServerDriver"
+2019-10-12 13:13:35.676 DEBUG --- [HikariConfig.java:1151][main] - healthCheckProperties...........{}
+2019-10-12 13:13:35.677 DEBUG --- [HikariConfig.java:1151][main] - healthCheckRegistry.............none
+2019-10-12 13:13:35.677 DEBUG --- [HikariConfig.java:1151][main] - idleTimeout.....................600000
+2019-10-12 13:13:35.678 DEBUG --- [HikariConfig.java:1151][main] - initializationFailFast..........true
+2019-10-12 13:13:35.678 DEBUG --- [HikariConfig.java:1151][main] - initializationFailTimeout.......1
+2019-10-12 13:13:35.679 DEBUG --- [HikariConfig.java:1151][main] - isolateInternalQueries..........false
+2019-10-12 13:13:35.680 DEBUG --- [HikariConfig.java:1151][main] - jdbc4ConnectionTest.............false
+2019-10-12 13:13:35.681 DEBUG --- [HikariConfig.java:1151][main] - jdbcUrl.........................jdbc:sqlserver://222.244.144.163:5041;DatabaseName=hydee
+2019-10-12 13:13:35.682 DEBUG --- [HikariConfig.java:1151][main] - leakDetectionThreshold..........0
+2019-10-12 13:13:35.682 DEBUG --- [HikariConfig.java:1151][main] - maxLifetime.....................1800000
+2019-10-12 13:13:35.683 DEBUG --- [HikariConfig.java:1151][main] - maximumPoolSize.................10
+2019-10-12 13:13:35.684 DEBUG --- [HikariConfig.java:1151][main] - metricRegistry..................none
+2019-10-12 13:13:35.685 DEBUG --- [HikariConfig.java:1151][main] - metricsTrackerFactory...........none
+2019-10-12 13:13:35.685 DEBUG --- [HikariConfig.java:1151][main] - minimumIdle.....................10
+2019-10-12 13:13:35.686 DEBUG --- [HikariConfig.java:1151][main] - password........................<masked>
+2019-10-12 13:13:35.686 DEBUG --- [HikariConfig.java:1151][main] - poolName........................"HikariPool-1"
+2019-10-12 13:13:35.687 DEBUG --- [HikariConfig.java:1151][main] - readOnly........................false
+2019-10-12 13:13:35.687 DEBUG --- [HikariConfig.java:1151][main] - registerMbeans..................false
+2019-10-12 13:13:35.688 DEBUG --- [HikariConfig.java:1151][main] - scheduledExecutor...............none
+2019-10-12 13:13:35.689 DEBUG --- [HikariConfig.java:1151][main] - scheduledExecutorService........internal
+2019-10-12 13:13:35.689 DEBUG --- [HikariConfig.java:1151][main] - schema..........................none
+2019-10-12 13:13:35.691 DEBUG --- [HikariConfig.java:1151][main] - threadFactory...................internal
+2019-10-12 13:13:35.692 DEBUG --- [HikariConfig.java:1151][main] - transactionIsolation............default
+2019-10-12 13:13:35.692 DEBUG --- [HikariConfig.java:1151][main] - username........................"hydee"
+2019-10-12 13:13:35.693 DEBUG --- [HikariConfig.java:1151][main] - validationTimeout...............5000
+2019-10-12 13:13:35.693 INFO  --- [HikariDataSource.java:110][main] - HikariPool-1 - Starting...
+2019-10-12 13:13:36.376 DEBUG --- [HikariPool.java:538][main] - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 1a7392ec-2d19-4527-9980-827feb881b21
+2019-10-12 13:13:36.381 INFO  --- [HikariDataSource.java:123][main] - HikariPool-1 - Start completed.
+2019-10-12 13:13:36.396 DEBUG --- [BaseJdbcLogger.java:159][main] - ==>  Preparing: declare @busno varchar(20) select @busno='' select @busno='0001' if OBJECT_ID('tempdb..#period_month_xioami_t') is not null drop table #period_month_xioami_t if OBJECT_ID('tempdb..#sale_month_xioami_t') is not null drop table #sale_month_xioami_t create table #period_month_xioami_t ( month varchar(10)) create table #sale_month_xioami_t ( month varchar(10),saleamt numeric(16,2)) insert into #period_month_xioami_t select left(convert(varchar(10),DATEADD(dd,-7,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-6,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-5,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-4,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-3,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-2,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-1,getdate()),120),10) insert into #sale_month_xioami_t select convert(varchar(10),accdate,120) as day,SUM(realamt) as saleamt from r_sale_pos where busno=@busno and accdate >= convert(varchar(10),getdate()-7,120) and accdate < convert(varchar(10),getdate(),120) group by convert(varchar(10),accdate,120) select aa.MONTH ,isnull(bb.saleamt,0) saleamt from #period_month_xioami_t aa left join #sale_month_xioami_t bb on aa.month=bb.month 
+2019-10-12 13:13:36.480 DEBUG --- [BaseJdbcLogger.java:159][main] - ==> Parameters: 
+2019-10-12 13:13:36.483 DEBUG --- [HikariPool.java:404][HikariPool-1 housekeeper] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2019-10-12 13:13:36.534 DEBUG --- [BaseJdbcLogger.java:159][main] - <==    Updates: 0
+2019-10-12 13:13:36.536 DEBUG --- [BaseJdbcLogger.java:159][main] - <==    Updates: 7
+2019-10-12 13:13:36.536 DEBUG --- [BaseJdbcLogger.java:159][main] - <==    Updates: 3
+2019-10-12 13:13:36.594 DEBUG --- [BaseJdbcLogger.java:159][main] - <==      Total: 7
+2019-10-12 13:13:36.640 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:2 ClientConnectionId: 5cd5de9f-e351-467f-9d13-5a68cebc1269
+2019-10-12 13:13:36.753 INFO  --- [HikariDataSource.java:381][Thread-5] - HikariPool-1 - Shutdown initiated...
+2019-10-12 13:13:36.754 DEBUG --- [HikariPool.java:404][Thread-5] - HikariPool-1 - Before shutdown stats (total=2, active=0, idle=2, waiting=0)
+2019-10-12 13:13:36.757 DEBUG --- [PoolBase.java:127][HikariPool-1 connection closer] - HikariPool-1 - Closing connection ConnectionID:1 ClientConnectionId: 1a7392ec-2d19-4527-9980-827feb881b21: (connection evicted)
+2019-10-12 13:13:36.759 DEBUG --- [PoolBase.java:127][HikariPool-1 connection closer] - HikariPool-1 - Closing connection ConnectionID:2 ClientConnectionId: 5cd5de9f-e351-467f-9d13-5a68cebc1269: (connection evicted)
+2019-10-12 13:13:36.795 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:3 ClientConnectionId: c00c6ac0-214f-4174-8abc-760060387413
+2019-10-12 13:13:36.797 DEBUG --- [PoolBase.java:127][HikariPool-1 connection closer] - HikariPool-1 - Closing connection ConnectionID:3 ClientConnectionId: c00c6ac0-214f-4174-8abc-760060387413: (connection evicted)
+2019-10-12 13:13:36.799 DEBUG --- [HikariPool.java:404][Thread-5] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2019-10-12 13:13:36.799 INFO  --- [HikariDataSource.java:383][Thread-5] - HikariPool-1 - Shutdown completed.
+2019-10-12 13:16:26.396 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 13:16:26.420 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 13:16:26.422 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 13:16:26.422 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 13:16:26.423 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 13:16:26.423 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 13:16:26.426 INFO  --- [StartupInfoLogger.java:50][restartedMain] - Starting MyApplication on LAPTOP-KH9026AL with PID 8188 (C:\dingding\dingtalk-demo\dingtalk\target\classes started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 13:16:26.427 DEBUG --- [StartupInfoLogger.java:53][restartedMain] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 13:16:26.429 INFO  --- [SpringApplication.java:663][restartedMain] - The following profiles are active: dev
+2019-10-12 13:16:28.001 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.002 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.003 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.003 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.003 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.004 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.004 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.005 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.005 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.005 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.006 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.006 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.007 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'hydeeDao' and 'com.shrek.example.dao.paiban.HydeeDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:16:28.008 WARN  --- [ClassPathMapperScanner.java:166][restartedMain] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 13:16:29.505 DEBUG --- [HikariConfig.java:495][restartedMain] - Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6f4d547b
+2019-10-12 13:16:31.837 DEBUG --- [HikariConfig.java:495][restartedMain] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6f4d547b
+2019-10-12 13:16:32.086 DEBUG --- [TraversableResolvers.java:60][restartedMain] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 13:16:32.087 DEBUG --- [ResourceBundleMessageInterpolator.java:89][restartedMain] - Loaded expression factory via original TCCL
+2019-10-12 13:16:32.100 DEBUG --- [TraversableResolvers.java:60][restartedMain] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 13:16:32.101 DEBUG --- [ConfigurationImpl.java:148][restartedMain] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 13:16:32.102 DEBUG --- [ConfigurationImpl.java:180][restartedMain] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 13:16:32.103 DEBUG --- [ConfigurationImpl.java:194][restartedMain] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 13:16:32.105 DEBUG --- [ValidationXmlParser.java:133][restartedMain] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 13:16:32.106 DEBUG --- [ResourceLoaderHelper.java:53][restartedMain] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 13:16:32.106 DEBUG --- [ResourceLoaderHelper.java:60][restartedMain] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 13:16:32.107 DEBUG --- [ResourceLoaderHelper.java:66][restartedMain] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 13:16:32.107 DEBUG --- [ValidationXmlParser.java:140][restartedMain] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 13:16:32.113 DEBUG --- [ValidatorFactoryImpl.java:578][restartedMain] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 13:16:32.114 DEBUG --- [ValidatorFactoryImpl.java:579][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 13:16:32.114 DEBUG --- [ValidatorFactoryImpl.java:580][restartedMain] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 13:16:32.114 DEBUG --- [ValidatorFactoryImpl.java:581][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 13:16:32.115 DEBUG --- [ValidatorFactoryImpl.java:582][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 13:16:33.552 INFO  --- [StartupInfoLogger.java:59][restartedMain] - Started MyApplication in 7.965 seconds (JVM running for 10.126)
+2019-10-12 13:23:47.006 DEBUG --- [ResourceBundleMessageInterpolator.java:89][background-preinit] - Loaded expression factory via original TCCL
+2019-10-12 13:23:47.028 DEBUG --- [ValidatorFactoryImpl.java:578][background-preinit] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 13:23:47.030 DEBUG --- [ValidatorFactoryImpl.java:579][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 13:23:47.031 DEBUG --- [ValidatorFactoryImpl.java:580][background-preinit] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 13:23:47.031 DEBUG --- [ValidatorFactoryImpl.java:581][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 13:23:47.032 DEBUG --- [ValidatorFactoryImpl.java:582][background-preinit] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 13:23:47.065 INFO  --- [StartupInfoLogger.java:50][restartedMain] - Starting MyApplication on LAPTOP-KH9026AL with PID 18672 (C:\dingding\dingtalk-demo\dingtalk\target\classes started by shrek in C:\dingding\dingtalk-demo\dingtalk)
+2019-10-12 13:23:47.066 DEBUG --- [StartupInfoLogger.java:53][restartedMain] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-10-12 13:23:47.066 INFO  --- [SpringApplication.java:663][restartedMain] - The following profiles are active: dev
+2019-10-12 13:23:48.528 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'bsCityDao' and 'com.shrek.example.dao.mysql.BsCityDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.529 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'dingTalkDao' and 'com.shrek.example.dao.mysql.DingTalkDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.529 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'loginDao' and 'com.shrek.example.dao.mysql.LoginDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.529 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'orgDao' and 'com.shrek.example.dao.mysql.OrgDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.530 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'permissionDao' and 'com.shrek.example.dao.mysql.PermissionDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.530 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'reportTestDao' and 'com.shrek.example.dao.mysql.ReportTestDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.530 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'sysGeneratorDao' and 'com.shrek.example.dao.mysql.SysGeneratorDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.531 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'userDao' and 'com.shrek.example.dao.mysql.UserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.531 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatCacheDao' and 'com.shrek.example.dao.mysql.WebChatCacheDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.531 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webchatConfigDao' and 'com.shrek.example.dao.mysql.WebchatConfigDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.532 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatDepDao' and 'com.shrek.example.dao.mysql.WebChatDepDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.532 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'webChatUserDao' and 'com.shrek.example.dao.mysql.WebChatUserDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.533 WARN  --- [ClassPathMapperScanner.java:239][restartedMain] - Skipping MapperFactoryBean with name 'hydeeDao' and 'com.shrek.example.dao.paiban.HydeeDao' mapperInterface. Bean already defined with the same name!
+2019-10-12 13:23:48.533 WARN  --- [ClassPathMapperScanner.java:166][restartedMain] - No MyBatis mapper was found in '[com.shrek.example.dao]' package. Please check your configuration.
+2019-10-12 13:23:50.089 DEBUG --- [HikariConfig.java:495][restartedMain] - Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@53787d75
+2019-10-12 13:23:52.203 DEBUG --- [HikariConfig.java:495][restartedMain] - Driver class com.microsoft.sqlserver.jdbc.SQLServerDriver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@53787d75
+2019-10-12 13:23:52.442 DEBUG --- [TraversableResolvers.java:60][restartedMain] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 13:23:52.443 DEBUG --- [ResourceBundleMessageInterpolator.java:89][restartedMain] - Loaded expression factory via original TCCL
+2019-10-12 13:23:52.456 DEBUG --- [TraversableResolvers.java:60][restartedMain] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-10-12 13:23:52.458 DEBUG --- [ConfigurationImpl.java:148][restartedMain] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-10-12 13:23:52.459 DEBUG --- [ConfigurationImpl.java:180][restartedMain] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-10-12 13:23:52.460 DEBUG --- [ConfigurationImpl.java:194][restartedMain] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-10-12 13:23:52.461 DEBUG --- [ValidationXmlParser.java:133][restartedMain] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-10-12 13:23:52.462 DEBUG --- [ResourceLoaderHelper.java:53][restartedMain] - Trying to load META-INF/validation.xml via user class loader
+2019-10-12 13:23:52.462 DEBUG --- [ResourceLoaderHelper.java:60][restartedMain] - Trying to load META-INF/validation.xml via TCCL
+2019-10-12 13:23:52.463 DEBUG --- [ResourceLoaderHelper.java:66][restartedMain] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-10-12 13:23:52.463 DEBUG --- [ValidationXmlParser.java:140][restartedMain] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-10-12 13:23:52.470 DEBUG --- [ValidatorFactoryImpl.java:578][restartedMain] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-10-12 13:23:52.470 DEBUG --- [ValidatorFactoryImpl.java:579][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-10-12 13:23:52.471 DEBUG --- [ValidatorFactoryImpl.java:580][restartedMain] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-10-12 13:23:52.471 DEBUG --- [ValidatorFactoryImpl.java:581][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-10-12 13:23:52.471 DEBUG --- [ValidatorFactoryImpl.java:582][restartedMain] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-10-12 13:23:53.988 INFO  --- [StartupInfoLogger.java:59][restartedMain] - Started MyApplication in 7.705 seconds (JVM running for 9.949)
+2019-10-12 13:26:32.790 DEBUG --- [HikariConfig.java:1119][http-nio-8090-exec-1] - HikariPool-1 - configuration:
+2019-10-12 13:26:32.793 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - allowPoolSuspension.............false
+2019-10-12 13:26:32.793 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - autoCommit......................true
+2019-10-12 13:26:32.794 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - catalog.........................none
+2019-10-12 13:26:32.794 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - connectionInitSql...............none
+2019-10-12 13:26:32.795 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - connectionTestQuery.............none
+2019-10-12 13:26:32.795 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - connectionTimeout...............30000
+2019-10-12 13:26:32.796 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - dataSource......................none
+2019-10-12 13:26:32.796 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - dataSourceClassName.............none
+2019-10-12 13:26:32.796 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - dataSourceJNDI..................none
+2019-10-12 13:26:32.797 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - dataSourceProperties............{password=<masked>}
+2019-10-12 13:26:32.798 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - driverClassName................."com.microsoft.sqlserver.jdbc.SQLServerDriver"
+2019-10-12 13:26:32.798 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - healthCheckProperties...........{}
+2019-10-12 13:26:32.799 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - healthCheckRegistry.............none
+2019-10-12 13:26:32.799 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - idleTimeout.....................600000
+2019-10-12 13:26:32.800 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - initializationFailFast..........true
+2019-10-12 13:26:32.801 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - initializationFailTimeout.......1
+2019-10-12 13:26:32.802 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - isolateInternalQueries..........false
+2019-10-12 13:26:32.802 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - jdbc4ConnectionTest.............false
+2019-10-12 13:26:32.803 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - jdbcUrl.........................jdbc:sqlserver://222.244.144.163:5041;DatabaseName=hydee
+2019-10-12 13:26:32.804 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - leakDetectionThreshold..........0
+2019-10-12 13:26:32.804 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - maxLifetime.....................1800000
+2019-10-12 13:26:32.805 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - maximumPoolSize.................10
+2019-10-12 13:26:32.806 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - metricRegistry..................none
+2019-10-12 13:26:32.806 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - metricsTrackerFactory...........none
+2019-10-12 13:26:32.807 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - minimumIdle.....................10
+2019-10-12 13:26:32.807 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - password........................<masked>
+2019-10-12 13:26:32.808 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - poolName........................"HikariPool-1"
+2019-10-12 13:26:32.809 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - readOnly........................false
+2019-10-12 13:26:32.809 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - registerMbeans..................false
+2019-10-12 13:26:32.810 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - scheduledExecutor...............none
+2019-10-12 13:26:32.810 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - scheduledExecutorService........internal
+2019-10-12 13:26:32.811 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - schema..........................none
+2019-10-12 13:26:32.812 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - threadFactory...................internal
+2019-10-12 13:26:32.812 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - transactionIsolation............default
+2019-10-12 13:26:32.812 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - username........................"hydee"
+2019-10-12 13:26:32.813 DEBUG --- [HikariConfig.java:1151][http-nio-8090-exec-1] - validationTimeout...............5000
+2019-10-12 13:26:32.813 INFO  --- [HikariDataSource.java:110][http-nio-8090-exec-1] - HikariPool-1 - Starting...
+2019-10-12 13:26:33.193 DEBUG --- [HikariPool.java:538][http-nio-8090-exec-1] - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e01119ac-cd6d-49da-a554-b408ebed1750
+2019-10-12 13:26:33.196 INFO  --- [HikariDataSource.java:123][http-nio-8090-exec-1] - HikariPool-1 - Start completed.
+2019-10-12 13:26:33.206 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-1] - ==>  Preparing: declare @busno varchar(20) select @busno='' select @busno='0001' if OBJECT_ID('tempdb..#period_month_xioami_t') is not null drop table #period_month_xioami_t if OBJECT_ID('tempdb..#sale_month_xioami_t') is not null drop table #sale_month_xioami_t create table #period_month_xioami_t ( month varchar(10)) create table #sale_month_xioami_t ( month varchar(10),saleamt numeric(16,2)) insert into #period_month_xioami_t select left(convert(varchar(10),DATEADD(dd,-7,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-6,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-5,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-4,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-3,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-2,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-1,getdate()),120),10) insert into #sale_month_xioami_t select convert(varchar(10),accdate,120) as day,SUM(realamt) as saleamt from r_sale_pos where busno=@busno and accdate >= convert(varchar(10),getdate()-7,120) and accdate < convert(varchar(10),getdate(),120) group by convert(varchar(10),accdate,120) select aa.MONTH '月份',isnull(bb.saleamt,0) '销售额' from #period_month_xioami_t aa left join #sale_month_xioami_t bb on aa.month=bb.month 
+2019-10-12 13:26:33.239 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-1] - ==> Parameters: 
+2019-10-12 13:26:33.292 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-1] - <==    Updates: 0
+2019-10-12 13:26:33.293 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-1] - <==    Updates: 7
+2019-10-12 13:26:33.294 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-1] - <==    Updates: 3
+2019-10-12 13:26:33.298 DEBUG --- [HikariPool.java:404][HikariPool-1 housekeeper] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2019-10-12 13:26:33.326 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-1] - <==      Total: 7
+2019-10-12 13:26:33.464 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:2 ClientConnectionId: 474537b7-63ad-49b4-b655-50c871a1d77f
+2019-10-12 13:26:33.650 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:3 ClientConnectionId: f38785da-058e-4537-99df-2da296573879
+2019-10-12 13:26:33.834 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:4 ClientConnectionId: 81f519de-20cb-4380-ac12-69605f6d8281
+2019-10-12 13:26:33.992 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:5 ClientConnectionId: 0a44a344-ff62-47c8-99d3-83dba77fe55a
+2019-10-12 13:26:34.161 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:6 ClientConnectionId: 644ab3d0-1057-47b5-95fb-dcbd6e1926f1
+2019-10-12 13:26:34.311 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:7 ClientConnectionId: 36bf99a3-ad56-4624-ba33-557208f6f905
+2019-10-12 13:26:34.456 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:8 ClientConnectionId: b0261a59-8681-45c9-ac55-2d1dda0232da
+2019-10-12 13:26:34.614 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:9 ClientConnectionId: c7d3d2f1-81fd-40d3-8b84-a49ddcf89c13
+2019-10-12 13:26:34.770 DEBUG --- [HikariPool.java:702][HikariPool-1 connection adder] - HikariPool-1 - Added connection ConnectionID:10 ClientConnectionId: 82bf9999-3433-4f29-9689-ebec6297b28d
+2019-10-12 13:26:34.770 DEBUG --- [HikariPool.java:404][HikariPool-1 connection adder] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-10-12 13:27:03.300 DEBUG --- [HikariPool.java:404][HikariPool-1 housekeeper] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-10-12 13:27:11.446 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-2] - ==>  Preparing: declare @busno varchar(20) select @busno='' select @busno='0001' if OBJECT_ID('tempdb..#period_month_xioami_t') is not null drop table #period_month_xioami_t if OBJECT_ID('tempdb..#sale_month_xioami_t') is not null drop table #sale_month_xioami_t create table #period_month_xioami_t ( month varchar(10)) create table #sale_month_xioami_t ( month varchar(10),saleamt numeric(16,2)) insert into #period_month_xioami_t select left(convert(varchar(10),DATEADD(dd,-7,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-6,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-5,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-4,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-3,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-2,getdate()),120),10) union all select left(convert(varchar(10),DATEADD(dd,-1,getdate()),120),10) insert into #sale_month_xioami_t select convert(varchar(10),accdate,120) as day,SUM(realamt) as saleamt from r_sale_pos where busno=@busno and accdate >= convert(varchar(10),getdate()-7,120) and accdate < convert(varchar(10),getdate(),120) group by convert(varchar(10),accdate,120) select aa.MONTH '月份',isnull(bb.saleamt,0) '销售额' from #period_month_xioami_t aa left join #sale_month_xioami_t bb on aa.month=bb.month 
+2019-10-12 13:27:11.447 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-2] - ==> Parameters: 
+2019-10-12 13:27:11.497 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-2] - <==    Updates: 0
+2019-10-12 13:27:11.498 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-2] - <==    Updates: 7
+2019-10-12 13:27:11.499 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-2] - <==    Updates: 3
+2019-10-12 13:27:11.502 DEBUG --- [BaseJdbcLogger.java:159][http-nio-8090-exec-2] - <==      Total: 7
+2019-10-12 13:27:33.301 DEBUG --- [HikariPool.java:404][HikariPool-1 housekeeper] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-10-12 13:28:03.302 DEBUG --- [HikariPool.java:404][HikariPool-1 housekeeper] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-10-12 13:28:33.303 DEBUG --- [HikariPool.java:404][HikariPool-1 housekeeper] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
